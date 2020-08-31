@@ -1,0 +1,609 @@
+Sub Align_Roles_Table()
+'
+' align roles table formatting
+'
+'
+' find headings in table
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Enterprise"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+    
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Manage"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Transform"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Portfolio"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Manage"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "This is a read-only view"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+       With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Transform"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Solution"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Manage"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Transform"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Program"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Manage"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "This is a read-only view"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Transform"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Team"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Manage"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Quality"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Transform"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Administration"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Other Setup"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Product"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Strategy"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Ideas"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Track"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "Collaborate"
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute
+    
+'  move to previous cell and remove numbering
+
+    Selection.MoveLeft Unit:=wdCell
+    Selection.Range.ListFormat.RemoveNumbers NumberType:=wdNumberParagraph
+
+
+End Sub
