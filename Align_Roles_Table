@@ -3,6 +3,11 @@ Sub Align_Roles_Table()
 ' align roles table formatting
 '
 '
+
+' placeholder for table formatting after copy and paste from UI from ALign
+' simple select all text to table, then add column and add autonumbering
+
+
 ' find headings in table
 
 Selection.Find.ClearFormatting
